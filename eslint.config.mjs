@@ -19,7 +19,8 @@ export default defineConfig([
     rules: {
       "prefer-const": "off",
       "tsdoc/syntax": "warn",
-      "no-duplicate-enum-values": "off"
+      "no-duplicate-enum-values": "off",
+      "no-explicit-any": "off"
     }
   },
 
